@@ -1,0 +1,6 @@
+To migrate the db 
+go run migrations/migrate.go
+
+To run the server with live reload
+find . -name "*.go" | entr -r go run .
+find . | grep '\.go' | entr -r go run .
