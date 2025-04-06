@@ -163,6 +163,7 @@ To run this project, you will need the following installed on your machine:
 - **`main.go`**: Initializes the application, loads environment variables, connects to the database, and sets up the routes for the API.
 - **`controllers/postsController.go`**: Contains the handlers for the CRUD operations related to posts.
 - **`initializers/database.go`**: Responsible for connecting to the SQLite database and setting up the GORM instance.
+- **`initializers/loadEnvVariables.go`**: Responsible for checking and loading the env variables.
 - **`migrations/migrate.go`**: Runs the migration to create the database schema (Post model).
 - **`models/post.go`**: Defines the Post model for the database.
 
